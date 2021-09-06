@@ -1,0 +1,14 @@
+
+    .header {
+        > div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0 20px;
+            > .divider {
+                margin: 0 15px;
+                color: $bodyDarkGrey;
+                font-size: 1.2rem;
+            }
+        }
+    }

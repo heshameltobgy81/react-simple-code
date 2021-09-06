@@ -1,0 +1,112 @@
+.leader-board {
+    position: relative;
+    z-index: 999;
+    .leader-board-header {
+        color: $colorWhite;
+        background: $bodyMainBackground;
+        border-radius: 5px;
+        padding: 15px 25px 20px;
+        h1 {
+            font-size: 1.2rem;
+            line-height: 1.3;
+            margin-bottom: 5px;
+            font-weight: 400;
+        }
+        span {
+            font-size: 1.1rem; 
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+            img {
+                margin-right: 3px;
+            }
+        }
+    }
+    .leader-board-table {
+        background: $bodyMainBackground;
+        padding: 15px 25px 10px;
+        margin-top: 25px;
+        border-radius: 5px;
+        table {
+            width: 100%;
+            font-size: 0.875rem;
+            thead {
+                font-weight: 500;
+                tr {
+                    text-transform: uppercase;
+                    td {
+                        padding: 0 0 15px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    &:not(:nth-of-type(7)):not(:nth-of-type(8)) {
+                        border-top: 1px solid $colorWhite;
+                    }
+                    td {
+                        padding: 15px 0;
+                    }
+                }
+            }
+            td {
+                &.player-info-title {
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+                &.player-info-content {
+                    font-weight: 600;
+                    span {
+                        margin-left: 5px;
+                    }
+                }
+                .rank-img {
+                    vertical-align: baseline;
+                }
+    
+            }
+        }
+        .table-title {
+            margin-bottom: 30px;
+            font-size: 1.2rem;
+        }
+    }
+}
+@media (max-width: $mediumScreen) {
+    .leader-board {
+         table {
+             thead {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+             }
+             tbody {
+                 tr {
+                     display: block;
+                     td {
+                        display: block;
+                        position: relative;
+                        padding-left: 50%;
+                        &:before {
+                            left: 0;
+                            width: 45%;
+                            padding-right: 10px;
+                            white-space: nowrap;
+                            content: attr(data-column);
+                            font-weight: bold;
+                            display: inline-block;
+                        }
+                        &:first-child {
+                            font-weight: 600;
+                            font-size: 1.1rem;
+                        }
+                     }
+                 }
+             }
+         }
+    }
+}
