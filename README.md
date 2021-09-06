@@ -3,7 +3,7 @@
 ***This project is built using React and Webpack***
 
 In order to view this project you need to have the following:
-1- Node (https://nodejs.org/en/)
+q- Node (https://nodejs.org/en/)__
 2- Yarn (https://classic.yarnpkg.com/en/docs/install)
 
 Then you can either clone or download the project on your local computer.
