@@ -1,1 +1,1 @@
-# full-stack-react-webpack
+# technical-assessment
