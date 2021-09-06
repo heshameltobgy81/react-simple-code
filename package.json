@@ -1,10 +1,10 @@
 {
-  "name": "full-stack-react-webpack",
+  "name": "leader-board",
   "version": "1.0.0",
-  "description": "Configure webpack to work with react project",
+  "description": "Leaderboard",
   "main": "index.js",
-  "repository": "https://github.com/HeshamEltobgy/full-stack-react-webpack.git",
-  "author": "Hesham Eltobgy <hesham.eltobgy@griffithuni.edu.au>",
+  "repository": "https://github.com/heshameltobgy81/technical-assessment.git",
+  "author": "Hesham Eltobgy <hesham_eltobgy@hotmail.comu>",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
