@@ -2,6 +2,11 @@
 ## Instructions
 ***This project is built using React and Webpack***
 
+Please visite the below link
+https://heshameltobgy81.github.io/technical-assessment/
+
+or you can do the below:
+
 In order to view this project you need to have the following:
 1. Node (https://nodejs.org/en/)__
 2. Yarn (https://classic.yarnpkg.com/en/docs/install)
