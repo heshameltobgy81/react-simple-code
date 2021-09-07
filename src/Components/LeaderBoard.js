@@ -164,7 +164,7 @@ const LeadersInfoList = () => {
                     <span><img src={date} alt="Date" />31 Aug 21</span>
                   </div>
               </Col>
-              <Col xs={12} sm={4}>
+              <Col xs={12} sm={4} className="total">
                   <div>
                     <span>Total Balls: 222</span>
                   </div>
