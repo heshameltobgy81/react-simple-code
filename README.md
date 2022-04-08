@@ -3,7 +3,7 @@
 ***This project is built using React and Webpack***
 
 Please visite the below link to view the webpage:
-https://heshameltobgy81.github.io/technical-assessment/
+https://heshameltobgy81.github.io/react-simple-code/
 
 or if you would like to install it on your computer, you can do the below:
 
