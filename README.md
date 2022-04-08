@@ -1,4 +1,4 @@
-# Technical Assessment (Leaderboard)
+# Small Project (Leaderboard)
 ## Instructions
 ***This project is built using React and Webpack***
 
